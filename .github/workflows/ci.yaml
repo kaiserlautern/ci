@@ -8,4 +8,4 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v2
       - name: build image
-        run: docker build . --tag test_image:$(date +s%x')
+        run: docker build . --tag test_image:$(date +s%x)
